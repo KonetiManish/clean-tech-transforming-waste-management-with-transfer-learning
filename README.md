@@ -66,19 +66,33 @@ This file. Explains the purpose and structure of the project.
 # dataset/(train,validation,etc)
 # Readme.md
 🚀 How to Run the Application Ensure all setup steps are completed (prerequisites and installation).
+
 Place your trained model file (trained_model.h5) directly in the C:\Clean Tech root directory, next to app.py.
+
 Generate the Interactive Project Overview HTML: Run the conversion script to create templates/README_interactive_overview.html:
+
 python convert_readme.py
+
 Open Anaconda Prompt (as Administrator).
+
 Navigate to your project's root directory:
+
 cd C:\Clean Tech
+
 Activate your Conda environment:
+
 conda activate Clean_Tech # Or whatever you named your environment
+
 Start the Flask application:
+
 python app.py
+
 You should see output similar to this, indicating the server is running and the model loaded:
+
 ✅ Model loaded successfully from C:\Clean Tech\trained_model.h5
+
 Serving flask app "app" 
+
 Debug mode: on
 Running on all addresses (0.0.0.0)
 Running on http://127.0.0.1:5000
