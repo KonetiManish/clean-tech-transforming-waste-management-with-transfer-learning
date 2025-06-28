@@ -39,6 +39,8 @@ Bootstrap 5 (Frontend)
 # Project Lead:Hayath muhammad zaid Khan
 # Team Members:jaswitha RV,K.Manish,K.Ramya
 # Email: manishkoneti43@gmail.com
+# Demo link: https://youtu.be/yDbGuqCchgg?si=QL9ufeG3PNrYTUZ9
+# Smart Bridge Internship: [https://apsche.smartinternz.com/Student/guided_project_workspace/42645]
 # License
 This project is licensed under the MIT License.
 # Smart Bridge Internship: [https://apsche.smartinternz.com/Student/]
