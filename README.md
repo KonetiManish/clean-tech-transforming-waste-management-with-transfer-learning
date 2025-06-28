@@ -14,22 +14,22 @@
 4.Framework: TensorFlow/Keras
 # 📁 Project Structure
 CleanTech/
-├── app.py
-├── healthy_vs_rotten.h5
-├── train_model.py
-├── dataset/
-│   ├── train/
-│   └── validation/
-├── static/
-│   ├── uploads/
-│   └── assets/
-├── templates/
-│   ├── index.html
-│   ├── blog.html
-│   ├── blog-single.html
-│   ├── portfolio-details.html
-│   └── ipython.html
-└── README.md
+ ├── app.py
+ ├── healthy_vs_rotten.h5
+ ├── train_model.py
+ ├── dataset/
+ │   ├── train/
+ │   └── validation/
+ ├── static/
+ │   ├── uploads/
+ │   └── assets/
+ ├── templates/
+ │   ├── index.html
+ │   ├── blog.html
+ │   ├── blog-single.html
+ │   ├── portfolio-details.html
+ │   └── ipython.html
+ └── README.md
 # 🛠️ Installation & Setup
 git clone https://github.com/your-username/CleanTech-AI.git
 cd CleanTech-AI
