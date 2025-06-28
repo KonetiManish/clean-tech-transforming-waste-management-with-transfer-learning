@@ -15,6 +15,7 @@ Optional: Exported HTML version of a Jupyter Notebook for model exploration.
 This file. Explains the purpose and structure of the project.
 # static/(assets,forms,uploaded images will go here)
 # templates/(index.html,blog.html,blog single.html,portfolio-details.html)
+# dataset/(train,validation,etc)
 # Readme.txt
 This file. Explains the purpose and structure of the project.
 
@@ -25,6 +26,7 @@ How to Run:
 3. Run the app:
    > python app.py
 4. Visit `` in your browser.
+5. 
 # TEAM ID:LTVIP2025TMID34776
 # Project Lead:Hayath muhammad zaid Khan
 # Team Members:jaswitha RV,K.Manish,K.Ramya
