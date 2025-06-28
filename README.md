@@ -57,7 +57,7 @@ CleanTech/
  
 # 🛠️ Installation & Setup
 
-git clone https://github.com/KonetiManish/clean-tech-transforming-waste-management
+git clone https://github.com/KonetiManish/clean-tech-transforming-waste-management-with-transfer-learning/tree/main
 
 cd CleanTech-AI
 
