@@ -3,41 +3,73 @@
 
 # Technologies Used
 1.Python 3.8+
+
 2.TensorFlow / Keras
+
 3.Flask (Backend)
-4.Bootstrap 5 (Frontend)Project Title: Healthy vs Rotten Classifier Web App
+
+4.Bootstrap
+
+5 (Frontend)Project Title: Healthy vs Rotten Classifier Web App
 
 # 🧠 Model Overview
 1.Architecture: VGG16 (pre-trained on ImageNet)
+
 2.Input Size: 224x224 RGB
+
 3.Training: Custom dense layers for 3 classes
+
 4.Framework: TensorFlow/Keras
 # 📁 Project Structure
 CleanTech/
+
  ├── app.py
+ 
  ├── healthy_vs_rotten.h5
+ 
  ├── train_model.py
+ 
  ├── dataset/
+ 
  │   ├── train/
+ 
  │   └── validation/
+ 
  ├── static/
+ 
  │   ├── uploads/
+ 
  │   └── assets/
+ 
  ├── templates/
+ 
  │   ├── index.html
+ 
  │   ├── blog.html
+ 
  │   ├── blog-single.html
+ 
  │   ├── portfolio-details.html
+ 
  │   └── ipython.html
+ 
  └── README.md
+ 
 # 🛠️ Installation & Setup
-git clone https://github.com/your-username/CleanTech-AI.git
+git clone https://github.com/KonetiManish/clean-tech-transforming-waste-management
+
 cd CleanTech-AI
+
 conda create -n cleantech python=3.8
+
 conda activate cleantech
+
 pip install -r requirements.txt
+
 python train_model.py
+
 python app.py
+
 # 🌱 Dataset Format
 Organize your dataset like this:
 dataset/
