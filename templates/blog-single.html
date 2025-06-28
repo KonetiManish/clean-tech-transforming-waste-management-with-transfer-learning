@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CleanTech Blog - Project Insights</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .hero {
+      background: linear-gradient(to right, #38b6ff, #0099cc);
+      color: white;
+      padding: 3rem 1rem;
+      border-radius: 0 0 20px 20px;
+      margin-bottom: 2rem;
+    }
+    .content-img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .highlight {
+      background-color: #e6f7ff;
+      padding: 10px 15px;
+      border-left: 4px solid #007bff;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Banner -->
+  <div class="hero text-center">
+    <h1>How CleanTech Uses AI to Revolutionize Waste Sorting</h1>
+    <p class="lead">A deep dive into building an intelligent waste classification system using VGG16 and Flask</p>
+  </div>
+
+  <!-- Blog Content -->
+  <div class="container">
+    <article class="bg-white p-4 rounded shadow-sm">
+      <img src="{{ url_for('static', filename='assets/waste_ai_banner.jpg') }}" class="content-img mb-4" alt="AI Waste Sorting"/>
+
+      <h2>🚀 Project Overview</h2>
+      <p>CleanTech leverages transfer learning to classify images of trash into <strong>Biodegradable</strong>, <strong>Recyclable</strong>, and <strong>Trash</strong> using a VGG16 pre-trained model. It’s powered by Flask for backend operations and HTML/CSS for the user interface.</p>
+
+      <div class="highlight">
+        ✅ <strong>Goal:</strong> To build a lightweight, efficient, and accurate AI system for real-time waste classification.
+      </div>
+
+      <h3>🧠 Why VGG16?</h3>
+      <p>VGG16 is a deep CNN known for its balance between simplicity and performance. Its pre-trained weights provide a strong base for custom image classification tasks.</p>
+
+      <h3>🔧 How the Web App Works</h3>
+      <ul>
+        <li>User uploads an image via the web UI</li>
+        <li>Flask backend processes the image</li>
+        <li>The VGG16 model makes a prediction</li>
+        <li>Prediction result is shown in real time</li>
+      </ul>
+
+      <h3>📁 Project Structure</h3>
+      <p>The app is divided into logical folders for maintainability and scalability:</p>
+      <pre><code>
+CleanTech/
+├── app.py
+├── healthy_vs_rotten.h5
+├── templates/
+│   ├── index.html
+│   └── blog-single.html
+├── static/
+│   ├── uploads/
+│   └── assets/
+      </code></pre>
+
+      <h3>🎯 Final Thoughts</h3>
+      <p>CleanTech showcases how deep learning can be used not just for high-tech applications but also for sustainability. With a user-friendly UI and fast predictions, it's ready to scale into real-world environments like smart bins or educational tools.</p>
+
+      <hr />
+      <footer class="text-center mt-4">
+        <p>© 2025 CleanTech Team | Led by <strong>You</strong></p>
+      </footer>
+    </article>
+  </div>
+
+</body>
+</html>

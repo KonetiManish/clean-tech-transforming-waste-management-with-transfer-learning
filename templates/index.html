@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CleanTech Classifier</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    body {
+      background: #f0f4f8;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .container {
+      max-width: 600px;
+      margin-top: 50px;
+    }
+    .card {
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+    .preview-img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container text-center">
+    <h1 class="mb-4 text-primary">CleanTech Waste Classifier</h1>
+    <div class="card p-4 bg-white">
+      <form action="/predict" method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+          <label for="file" class="form-label"><strong>Select an image to classify:</strong></label>
+          <input class="form-control" type="file" name="file" id="file" accept="image/*" onchange="previewImage(event)" required>
+        </div>
+
+        <div id="preview-container" class="d-none">
+          <p class="text-muted">Preview:</p>
+          <img id="preview" class="preview-img" />
+        </div>
+
+        <button type="submit" class="btn btn-success w-100 mt-4">Predict</button>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    function previewImage(event) {
+      const reader = new FileReader();
+      reader.onload = function () {
+        const output = document.getElementById('preview');
+        output.src = reader.result;
+        document.getElementById('preview-container').classList.remove('d-none');
+      };
+      reader.readAsDataURL(event.target.files[0]);
+    }
+  </script>
+
+</body>
+</html>
