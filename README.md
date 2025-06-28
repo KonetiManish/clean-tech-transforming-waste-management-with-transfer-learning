@@ -1,4 +1,8 @@
-Project Title: Healthy vs Rotten Classifier Web App
+Technologies Used
+Python 3.8+
+TensorFlow / Keras
+Flask (Backend)
+Bootstrap 5 (Frontend)Project Title: Healthy vs Rotten Classifier Web App
 
 Description:
 -------------
@@ -26,10 +30,16 @@ How to Run:
 3. Run the app:
    > python app.py
 4. Visit `` in your browser.
-5. 
+# Technologies Used
+Python 3.8+
+TensorFlow / Keras
+Flask (Backend)
+Bootstrap 5 (Frontend)
 # TEAM ID:LTVIP2025TMID34776
 # Project Lead:Hayath muhammad zaid Khan
 # Team Members:jaswitha RV,K.Manish,K.Ramya
 # Email: manishkoneti43@gmail.com
+# License
+This project is licensed under the MIT License.
 # Smart Bridge Internship: [https://apsche.smartinternz.com/Student/]
 # Demolink: https://youtu.be/yDbGuqCchgg?si=QL9ufeG3PNrYTUZ9
